@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
+    namespace 'com.geetest.gt3captcha.gt3_flutter_plugin'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
